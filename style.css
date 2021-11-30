@@ -62,15 +62,9 @@ td {
 
 
 .sidebar {
-    /* height: 100%; */
-    /* width: 100%; */
     background-color: #7C5840;
     color: white;
-    /* float: left; */
-    /* padding: 56px; */
     padding: 36px;
-    /* position: sticky; */
-    /* top: 0; */
 }
 
 .content {
