@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12pt;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 32pt;
+    font-weight: 800;
+}
+
+h2 {
+    margin-top: 36px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    font-weight: bold;
+    font-size: 16pt;
+    color: #DEB27D;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+i {
+    opacity: 0.7;
+}
+
+li{
+    padding: 5px;
+}
+
+td {
+    padding: 5px 5px 0 0;
+}
+
+#about-p {
+    font-size: 14pt;
+}
+
+#divider{
+    margin-top: 28px;
+    background-color: #7C5840;
+    width: 180px;
+    height: 5px;
+    display: none;
+}
+
+#name{
+    display: none;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.sidebar {
+    /* height: 100%; */
+    /* width: 100%; */
+    background-color: #7C5840;
+    color: white;
+    /* float: left; */
+    /* padding: 56px; */
+    padding: 36px;
+    /* position: sticky; */
+    /* top: 0; */
+}
+
+.content {
+    padding: 36px;
+    max-width: 1000px;
+}
+
+.sidebar a{
+    color: white;
+}
+
+a {
+    color: #000;
+    transition: color 0.3s;
+}
+
+a:hover{
+    color: #DEB27D;
+}
+
+.sidebar .button {
+    margin: 5px;
+    font-weight: bold;
+    letter-spacing: 1pt;
+    background-color: #7C5840;
+    color: #ffffff;
+    padding: 16px;
+    border-radius: 48px;
+    box-shadow: 0px 3px 18px 1px #634532;
+    outline: none;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+  
+.sidebar .button:hover {
+    background-color: #ffe3c1;
+    color: #7C5840;
+    box-shadow: 0px 3px 20px #deb27da2;
+}
+
+.sidebar h2 {
+    color: #fff;
+}
+
+.avatar {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: block;
+    user-select: none;
+    -webkit-user-drag: none;
+    margin-bottom: 48px;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #e4e4e4;
+}
+::-webkit-scrollbar-thumb {
+    background: #493428;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #a17659;
+}
+
+@media only screen and (min-width: 800px){
+    .avatar {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #name-mobile{
+        display: none;
+    }
+    #name{
+        display: block;
+        color: #7C5840;
+        font-size: 64pt;
+    }
+    #divider{
+        display: block;
+    }
+    .sidebar{
+        float: left;
+        position: sticky;
+        top: 0;
+        width: 280px;
+        padding: 56px;
+    }
+    .content{
+        margin-left: 432px;
+        padding: 56px;
+    }
+
+}
